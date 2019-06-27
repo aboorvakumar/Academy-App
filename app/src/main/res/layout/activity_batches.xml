@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="S.No"
+                android:gravity="center_vertical"
+                android:textColor="#0919cc"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="Session Name"
+                android:textColor="#0919cc"
+                android:textSize="13dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="No of Sessions"
+                android:textColor="#0919cc"
+                android:textSize="13dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="1"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="English Language"
+                android:padding="10dp"
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="26"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="2"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="Aptitude"
+                android:padding="10dp"
+
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="28"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="3"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="General Knowledge"
+                android:padding="10dp"
+
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="37"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="4"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="Logical Reasoning"
+                android:padding="10dp"
+
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="58"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="5"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="Mathematics"
+                android:padding="10dp"
+
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="54"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/row"
+                android:text="6"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="Total"
+                android:padding="10dp"
+
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp"
+                android:background="@drawable/row"
+                android:text="200+"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For More Information"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Email-id: Jeevan.law@gmail.com"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+         >
+        <TableRow android:background="#0079D6" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="S.No"
+            android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Session Name" />
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Number of Sessions" />
+        </TableRow>
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="English Language" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="26" />
+        </TableRow>
+        <TableRow android:background="#FFFFFF" android:padding="5dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Legal Aptitude and Reasoning" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="28" />
+        </TableRow>
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="General Knowledge" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="37" />
+        </TableRow>
+
+        <TableRow android:background="#FFFFFF" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Logical Reasoning" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="58" />
+        </TableRow>
+
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mathematics" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="54" />
+        </TableRow>
+
+        <TableRow android:background="#FFFFFF" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="200+" />
+        </TableRow>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="For More Information"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Email-id: Jeevan.law@gmail.com"/>
+    </LinearLayout>
+
+    </TableLayout>
+    <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+    </LinearLayout>-->
